@@ -49,7 +49,7 @@ export function Footer() {
             <a href={SITE.phoneHref} className="mt-4 block text-ivory">
               {SITE.phoneDisplay}
             </a>
-            <div className="mt-6 flex gap-5">
+            <div className="mt-6 flex flex-wrap gap-x-4 gap-y-2">
               {SITE.social.map((s) => (
                 <a
                   key={s.label}

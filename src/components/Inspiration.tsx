@@ -27,9 +27,9 @@ export function Inspiration() {
             </p>
           </div>
 
-          <div className="mt-14 grid gap-8 md:mt-24 lg:grid-cols-12 lg:gap-14">
+          <div className="mt-14 grid grid-cols-1 gap-8 md:mt-24 lg:grid-cols-12 lg:gap-14">
             {/* Room list */}
-            <div className="lg:col-span-4">
+            <div className="min-w-0 lg:col-span-4">
               <ul className="no-scrollbar -mx-6 flex gap-2 overflow-x-auto px-6 lg:mx-0 lg:block lg:overflow-visible lg:px-0" role="tablist">
                 {ROOMS.map((r, i) => (
                   <li key={r.id} className="shrink-0 lg:border-b lg:border-ivory/10">
@@ -64,7 +64,7 @@ export function Inspiration() {
             </div>
 
             {/* Stage */}
-            <div className="lg:col-span-8">
+            <div className="min-w-0 lg:col-span-8">
               <div data-mask="up" className="relative aspect-[4/5] w-full overflow-hidden bg-black sm:aspect-[4/3] lg:aspect-[16/11]">
                 <div data-mask-img className="absolute inset-0">
                   {ROOMS.map((r, i) => (

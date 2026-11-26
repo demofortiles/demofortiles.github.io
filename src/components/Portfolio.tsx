@@ -67,7 +67,7 @@ function Item({ p, cls, index }: { p: Project; cls: string; index: number }) {
           <p className="eyebrow mb-2">{p.type}</p>
           <h3 className="display text-3xl md:text-[2.2rem]">{p.title}</h3>
         </div>
-        <p className="shrink-0 pt-1 text-right text-[0.65rem] uppercase leading-[2] tracking-[0.26em] text-charcoal/50">
+        <p className="pt-1 text-right text-[0.65rem] uppercase leading-[2] tracking-[0.26em] text-charcoal/50">
           {p.location}
           <br />
           {p.year}
