@@ -45,7 +45,7 @@ export function WhyUs() {
         <div className="grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <p className="eyebrow mb-6" data-reveal="fade">
-              05 — Why Aurelia
+              05 — Why XYZ...... Tiles
             </p>
             <h2 className="h2" data-split>
               <Words text="The quiet confidence of *getting it right.*" />

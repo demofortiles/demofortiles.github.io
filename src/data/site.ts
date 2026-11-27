@@ -5,8 +5,8 @@
  */
 
 export const SITE = {
-  brand: "Aurelia",
-  brandSuffix: "Surfaces",
+  brand: "XYZ......",
+  brandSuffix: "Tiles",
   tagline: "Tiles · Marble · Stone",
   established: 1998,
 
@@ -17,7 +17,7 @@ export const SITE = {
   email: "studio@aureliasurfaces.com",
 
   address: {
-    lines: ["Aurelia Design Gallery", "12 Marble Arch Road, Design District", "Your City, 000 000"],
+    lines: ["XYZ...... Tiles Design Gallery", "12 Marble Arch Road, Design District", "Your City, 000 000"],
     hours: ["Mon – Sat · 10:00 – 19:00", "Sunday · By appointment"],
   },
 
